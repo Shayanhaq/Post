@@ -48,7 +48,7 @@ function Post(props) {
             />
             <div>
               <h3>{props.name}</h3>
-              <span>1 min ago</span>
+              <span>{props.time}</span>
             </div>
           </div>
           <SlOptions />
@@ -82,6 +82,7 @@ function App() {
       <div style={{ display: "flex", gap: "20px", flexDirection: "column" }}>
       <Post 
           name="Shayan Haq"
+          time="2 days ago"
           profilePhoto="https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/393357790_3644106222502514_9176325849097779353_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFrSVX9unn2AkSYrdMTN78PrOvwexmTxwWs6_B7GZPHBTMjIoHm6pj7EXwHTIj7k46wQqe9AsWkmgqJyzvjS3vz&_nc_ohc=1rI-QGy3eQIQ7kNvgEdY4BI&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=AXSazHTDoI5cMnKQF9Td7pm&oh=00_AYBWtPiD9B8PiYrazDWaMLjZTF3aIMsEh0tu9hGm0rVRUw&oe=67255177"
           postCaption="Tranquilo✨"
           postImage="https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/463781803_3921922948054172_4500723885268983320_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF-U4-iUKFyhsH5Lws9ZK5qO3eiWUWLwnA7d6JZRYvCcHQGUTw5EYsXb9Za0sVh9o6SYFq2MzGN8Ewn_zqw-9ME&_nc_ohc=l4sYmhs6LdsQ7kNvgH1vTMa&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=APO5XfBrdNU5jwDXQBQB18G&oh=00_AYBh1Wa0TUq-Bt-ETYpNJrD4qk6fRVL9hy9cVPXgO8dLsQ&oe=67255B65"
@@ -93,22 +94,26 @@ function App() {
                         Sāmne baiThā thā mere or vo merā na thā
 "
           postImage=""
+          time="1 min ago"
         />
        
         <Post 
           name="Chahat Fatah Ali Khan"
+          time="1 Month ago"
           profilePhoto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2i30yG-O1SkuQ2Ydu4NfGb0ed0YC_wW2Ng&s"
           postCaption="Bado-Badi🤡"
           postImage="https://ih1.redbubble.net/image.5109944986.7611/st,small,507x507-pad,600x600,f8f8f8.jpg"
         />
         <Post 
           name="Shahbaz Shareef"
+          time="1 year ago"
           profilePhoto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFh7k2iZHW8_Wo709cKo7BXy7T32raosg6g&s"
           postCaption="Dekhain.! Main Yahn Maangny Nh Aya😝 "
           postImage="https://images.moneycontrol.com/static-mcnews/2022/04/pjimage-2-2.jpg"
         />
         <Post 
           name="Cutie piee"
+          time="5 Months ago"
           profilePhoto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjn9frBfz_L05gV3wiDUShGPrkiV3AkRXHWg&s"
           postCaption="Maiñ Ne Har Baar Tujh Se Milte Waqt
                        Tujh Se Milne Kī Aarzū Kī Hai.😶😑😥 
@@ -118,18 +123,21 @@ function App() {
         />
         <Post 
           name="Fakhar Zaman "
+          time="1 sec ago"
           profilePhoto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzV1Ye_PsHL4GA1kHYDbsRk7ArejtCTWQYAQ&s"
           postCaption="Retairment💔😞"
           postImage="https://images.icc-cricket.com/image/upload/t_ratio21_9-size60/prd/r6yewwuow0i6t2nkoou7"
         />
         <Post 
           name="Shayan haq"
+          time="28 days ago"
           profilePhoto="https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/393357790_3644106222502514_9176325849097779353_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFrSVX9unn2AkSYrdMTN78PrOvwexmTxwWs6_B7GZPHBTMjIoHm6pj7EXwHTIj7k46wQqe9AsWkmgqJyzvjS3vz&_nc_ohc=1rI-QGy3eQIQ7kNvgEdY4BI&_nc_zt=23&_nc_ht=scontent.fkhi22-1.fna&_nc_gid=AXSazHTDoI5cMnKQF9Td7pm&oh=00_AYBWtPiD9B8PiYrazDWaMLjZTF3aIMsEh0tu9hGm0rVRUw&oe=67255177"
           postCaption="Pehla-Pyar😍"
           postImage="https://img.freepik.com/premium-photo/collection-musical-instruments-including-musical-instrument_1074212-53262.jpg?w=740"
         />
         <Post 
           name="Ahmad Faraz"
+          time="8 years ago"
           profilePhoto="https://rekhta.pc.cdn.bitgravity.com/Images/Shayar/ahmad-faraz.png "
           postCaption="Ranjish hī sahī dil hī dukhāne ke liye aa 
                        a phir se mujhe chore ke jaane ke liye a"
@@ -137,6 +145,7 @@ function App() {
         />
         <Post 
           name="Jaun Elia"
+          time="10 years ago"
           profilePhoto="https://rekhta.pc.cdn.bitgravity.com/Images/Shayar/jaun-eliya.png"
           postCaption="Kaun Is Ghar Kī Dekh-Bhāl Kare Roz Ik Chez TuuT Jaatī Hai💔😞"
           
